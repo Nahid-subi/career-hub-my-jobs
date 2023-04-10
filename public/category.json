@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "logo": "https://thumbs.dreamstime.com/b/software-development-data-digital-programs-system-technology-concept-software-development-data-digital-programs-system-technology-114631832.jpg",
+        "jobCategory": "Software Development",
+        "jobsAvailable": 123
+    },
+    {
+        "id": 2,
+        "logo": "https://envato-shoebox-0.imgix.net/d5a6/c542-f1fb-47a9-9e5b-39f8dab4bc83/DSC_1936.JPG?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=1000&s=9f7a134575e4fdb7c543aa5535bccb83",
+        "jobCategory": "IT Support",
+        "jobsAvailable": 67
+    },
+    {
+        "id": 3,
+        "logo": "https://media.gettyimages.com/id/1269463789/vector/smartphone-online-data-analysis-and-management-tool-data-analysis-mobile-application.jpg?s=1024x1024&w=gi&k=20&c=NkHM-RHR3pxwMSK57_y7QHzQwr1i3uaEnAqRrPqNJBQ=",
+        "jobCategory": "Mobile App Development",
+        "jobsAvailable": 89
+    },
+    {
+        "id": 4,
+        "logo": "https://media.gettyimages.com/id/636296064/vector/digital-marketing-banner-and-icons.jpg?s=1024x1024&w=gi&k=20&c=H04Djl9c96kLMNtbryKt9EKn7CdrFVxewc3d41cqBOo=",
+        "jobCategory": "Digital Marketing",
+        "jobsAvailable": 45
+    }
+]

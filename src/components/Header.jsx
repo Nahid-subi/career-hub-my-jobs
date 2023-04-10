@@ -8,7 +8,7 @@ import {
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
     return (
-        <div className='bg-gray-100 px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-full md:px-24'>
+        <div className='bg-gray-100 px-4 py-5 mx-auto sm:max-w-full md:max-w-full lg:max-w-full'>
             <div className='relative flex items-center justify-between mx-auto lg:max-w-screen-xl'>
                 {/* Logo Section */}
                 <Link to='/' className='inline-flex items-center'>
@@ -99,7 +99,7 @@ const Header = () => {
                                                 to='/statistics'
                                                 className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400'
                                             >
-                                                Books
+                                                Statistics
                                             </Link>
                                         </li>
                                         <li>
