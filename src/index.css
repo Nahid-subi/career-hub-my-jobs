@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.active {
+    @apply font-medium tracking-wide text-blue-700 transition-colors duration-200 hover:text-blue-500
+}
+
+.default {
+    @apply font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-500
+}
+
+.btn {
+    @apply py-3 px-4 rounded font-bold text-white bg-gradient-to-r from-indigo-400 to-violet-500 hover:from-violet-500 hover:to-indigo-400
+}
