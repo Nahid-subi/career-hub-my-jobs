@@ -12,6 +12,7 @@ const Home = () => {
     const handleSeeAllJobs = () => {
         setShowAllJobs(true)
     }
+    const imgMan = 'https://i.ibb.co/yVjBYJD/P3-OLGJ1-copy-1.png';
 
     return (
         <div>
@@ -28,7 +29,7 @@ const Home = () => {
                         <button className='btn my-8'>Get Started</button>
                     </div>
                     <div className='lg:w-[50%] w-full'>
-                        <img className='w-full' src="/src/assets/manphoto.png" alt="" />
+                        <img className='w-full' src={imgMan} alt="" />
                     </div>
                 </div>
             </section>
