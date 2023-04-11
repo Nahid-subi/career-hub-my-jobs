@@ -32,7 +32,7 @@ const Home = () => {
                 <p className='text-gray-500 my-6 text-center'>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 <div className='gap-3 lg:gap-6 grid grid-cols-2 lg:grid-cols-4 my-12'>
                     {
-                        category.map(categoryData => <Category
+                         Array.isArray(category) && category.map(categoryData => <Category
                             key={categoryData.id}
                             categoryData={categoryData}
                         ></Category>)

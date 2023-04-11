@@ -1,5 +1,8 @@
 import React from 'react';
-import { MapPinIcon,CurrencyDollarIcon } from '@heroicons/react/24/solid'
+import { MapPinIcon, CurrencyDollarIcon } from '@heroicons/react/24/solid'
+import { Link } from 'react-router-dom';
+import JobsDetails from '../JobsDetails';
+
 
 const JobsCard = ({ data }) => {
     const { companyLogo, companyName, id, fullTime, remote, jobTitle, location, salary } = data
@@ -15,15 +18,18 @@ const JobsCard = ({ data }) => {
             </div>
             <div className='flex gap-3 my-4 text-xs lg:text-base'>
                 <div className='flex justify-center items-center text-gray-500'>
-                <MapPinIcon className="h-4 w-4"/>
-                <p className='ms-1'>{location}</p>
+                    <MapPinIcon className="h-4 w-4" />
+                    <p className='ms-1'>{location}</p>
                 </div>
                 <div className='flex justify-center items-center text-gray-500'>
-                <CurrencyDollarIcon className="h-4 w-4"/>
-                <p className='ms-1'>{salary}</p>
+                    <CurrencyDollarIcon className="h-4 w-4" />
+                    <p className='ms-1'>{salary}</p>
                 </div>
             </div>
-            <button className='btn'>View Details</button>
+            <Link to={`/jobsdetails/${id}`}>
+                <button className='btn'>View Details</button>
+            </Link>
+
         </div>
     );
 };
