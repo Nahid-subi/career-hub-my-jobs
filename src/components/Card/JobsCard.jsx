@@ -1,7 +1,6 @@
 import React from 'react';
 import { MapPinIcon, CurrencyDollarIcon } from '@heroicons/react/24/solid'
 import { Link } from 'react-router-dom';
-import JobsDetails from '../JobsDetails';
 
 
 const JobsCard = ({ data }) => {

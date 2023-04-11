@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Category from './Category';
 import { ProductContext } from '../App';
@@ -7,6 +7,12 @@ import JobsCard from './Card/JobsCard';
 const Home = () => {
     const products = useContext(ProductContext)
     const category = useLoaderData()
+    const [showAllJobs, setShowAllJobs] = useState(false)
+
+    const handleSeeAllJobs = () => {
+        setShowAllJobs(true)
+    }
+
     return (
         <div>
             {/* header banner section*/}
@@ -45,7 +51,7 @@ const Home = () => {
                 <p className='text-gray-500 my-6 text-center'>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 <div className='grid grid-cols-1 lg:grid-cols-2 lg:max-w-screen-xl mx-auto gap-4'>
                     {
-                        products.slice(0, 4).map(data => <JobsCard
+                        products.slice(0, showAllJobs ? products.length : 4).map(data => <JobsCard
                             key={data.id}
                             data={data}
                         ></JobsCard>)
@@ -53,10 +59,10 @@ const Home = () => {
                 </div>
             </section>
             <div className='flex justify-center items-center my-9'>
-                <button className='btn'>See All Jobs</button>
+                {!showAllJobs && <button className='btn' onClick={handleSeeAllJobs}>See All Jobs</button>}
             </div>
         </div>
     );
 };
 
-export default Home;
+export default Home
