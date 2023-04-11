@@ -10,17 +10,19 @@ import Home from './components/Home';
 import Statistics from './components/Statistics';
 import Blog from './components/Blog';
 import AppliedJobs from './components/AppliedJobs';
+import { productsAndCartData } from './loaders/getCart&ProductData';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+    loader:productsAndCartData,
     children:[
       {
         path:'/',
         element:<Home></Home>,
-        loader:()=>fetch('category.json')
+        loader:()=>fetch('category.json'),
       },
       {
         path:'statistics',

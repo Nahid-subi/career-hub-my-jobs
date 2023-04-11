@@ -1,0 +1,147 @@
+[
+    {
+        "id": 1,
+        "companyLogo": "https://images-workbench.99static.com/wxx2GhYftgmFQU2R43BoFQ70D1A=/99designs-contests-attachments/114/114939/attachment_114939331",
+        "jobTitle": "Web Developer",
+        "companyName": "Alpha Inc",
+        "remote": true,
+        "location": "New York, NY",
+        "fullTime": true,
+        "salary": "$80,000 - $100,000",
+        "jobDescription": "Alpha Inc is seeking a skilled web developer to...",
+        "jobResponsibility": "Design, develop, and maintain websites and web applications...",
+        "educationalRequirements": "Bachelor’s degree in Computer Science or related field...",
+        "experiences": "3+ years of experience in web development...",
+        "contactInformation": {
+            "phone": "555-1234",
+            "email": "jobs@alphainc.com"
+        }
+    },
+    {
+        "id": 2,
+        "companyLogo": "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1421144291/q5dhtifuwqskx6vu0x9i.png",
+        "jobTitle": "Graphic Designer",
+        "companyName": "Beta Corp",
+        "remote": true,
+        "location": "Los Angeles, CA",
+        "fullTime": true,
+        "salary": "$60,000 - $80,000",
+        "jobDescription": "Beta Corp is seeking a creative graphic designer to...",
+        "jobResponsibility": "Design and create visual content for marketing materials...",
+        "educationalRequirements": "Bachelor’s degree in Graphic Design or related field...",
+        "experiences": "2+ years of experience in graphic design...",
+        "contactInformation": {
+            "phone": "555-2345",
+            "email": "jobs@betacorp.com"
+        }
+    },
+    {
+        "id": 3,
+        "companyLogo": "https://gammagroupme.com/wp-content/uploads/2023/01/Gamma-Website-logos-02.jpg",
+        "jobTitle": "Data Analyst",
+        "companyName": "Gamma LLC",
+        "remote": false,
+        "location": "Chicago, IL",
+        "fullTime": true,
+        "salary": "$70,000 - $90,000",
+        "jobDescription": "Gamma LLC is seeking a data analyst to...",
+        "jobResponsibility": "Collect, analyze, and interpret data to identify patterns and trends...",
+        "educationalRequirements": "Bachelor’s degree in Statistics or related field...",
+        "experiences": "2+ years of experience in data analysis...",
+        "contactInformation": {
+            "phone": "555-3456",
+            "email": "jobs@gammallc.com"
+        }
+    },
+    {
+        "id": 4,
+        "companyLogo": "https://images-platform.99static.com/J5Zud1zpnQdXQmgOnsCyCTjtg1s=/500x500/top/smart/99designs-contests-attachments/20/20584/attachment_20584106",
+        "jobTitle": "Sales Associate",
+        "companyName": "Delta Enterprises",
+        "remote": false,
+        "location": "Miami, FL",
+        "fullTime": false,
+        "salary": "$90,000 - $100,000",
+        "jobDescription": "Delta Enterprises is seeking a sales associate to...",
+        "jobResponsibility": "Generate leads and close sales for products and services...",
+        "educationalRequirements": "High School Diploma or equivalent...",
+        "experiences": "1+ years of experience in sales...",
+        "contactInformation": {
+            "phone": "555-4567",
+            "email": "jobs@deltaenterprises.com"
+        }
+    },
+    {
+        "id": 5,
+        "companyLogo": "https://www.epsilon-inc.com/files/images/ex%203.png",
+        "jobTitle": "Product Manager",
+        "companyName": "Epsilon Inc",
+        "remote": true,
+        "location": "Seattle, WA",
+        "fullTime": true,
+        "salary": "$90,000 - $120,000",
+        "jobDescription": "Epsilon Inc is seeking a product manager to...",
+        "jobResponsibility": "Develop and execute product strategy...",
+        "educationalRequirements": "Bachelor’s degree in Business or related field...",
+        "experiences": "5+ years of experience in product management...",
+        "contactInformation": {
+            "phone": "555-5678",
+            "email": "jobs@epsiloninc.com"
+        }
+    },
+    
+    {
+        "id": 6,
+        "companyLogo": "https://www.immunologic.nl/wp-content/uploads/2021/03/Logo_vierkant.png",
+        "jobTitle": "Human Resources Manager",
+        "companyName": "Zeta Corporation",
+        "remote": false,
+        "location": "Boston, MA",
+        "fullTime": true,
+        "salary": "$100,000 - $120,000",
+        "jobDescription": "Zeta Corporation is seeking a human resources manager to...",
+        "jobResponsibility": "Manage all aspects of human resources...",
+        "educationalRequirements": "Bachelor’s degree in Human Resources or related field...",
+        "experiences": "7+ years of experience in human resources management...",
+        "contactInformation": {
+            "phone": "555-6789",
+            "email": "jobs@zetacorp.com"
+        }
+    },
+    {
+        "id": 7,
+        "companyLogo": "https://dcassetcdn.com/design_img/3005965/630117/630117_16589385_3005965_9a4dc3c5_image.jpg",
+        "jobTitle": "Accountant",
+        "companyName": "Eta Accounting Services",
+        "remote": false,
+        "location": "Houston, TX",
+        "fullTime": true,
+        "salary": "$60,000 - $80,000",
+        "jobDescription": "Eta Accounting Services is seeking an accountant to...",
+        "jobResponsibility": "Prepare and maintain financial records...",
+        "educationalRequirements": "Bachelor’s degree in Accounting or related field...",
+        "experiences": "3+ years of experience in accounting...",
+        "contactInformation": {
+            "phone": "555-7890",
+            "email": "jobs@etaaccounting.com"
+        }
+    },
+    {
+        "id": 8,
+        "companyLogo": "https://pbs.twimg.com/profile_images/1463548563871387650/R1Zve4au_400x400.jpg",
+        "jobTitle": "Customer Support Representative",
+        "companyName": "Theta Inc",
+        "remote": true,
+        "location": "San Francisco, CA",
+        "fullTime": true,
+        "salary": "$40,000 - $50,000",
+        "jobDescription": "Theta Inc is seeking a customer support representative to...",
+        "jobResponsibility": "Provide timely and effective support to customers...",
+        "educationalRequirements": "High School Diploma or equivalent...",
+        "experiences": "1+ years of experience in customer service...",
+        "contactInformation": {
+            "phone": "555-8901",
+            "email": "jobs@thetainc.com"
+        }
+    }
+]

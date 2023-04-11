@@ -14,3 +14,6 @@
 .btn {
     @apply py-3 px-4 rounded font-bold text-white bg-gradient-to-r from-indigo-400 to-violet-500 hover:from-violet-500 hover:to-indigo-400
 }
+.text-color{
+    @apply bg-gradient-to-r from-indigo-400 to-violet-500 inline-block text-transparent bg-clip-text
+}
