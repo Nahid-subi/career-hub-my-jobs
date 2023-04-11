@@ -2,20 +2,23 @@ import React, { useContext, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { ProductContext } from '../App';
 import DetailsCard from './Card/DetailsCard';
+import { addToDb } from '../utils/fakedDB';
+import { toast } from 'react-hot-toast';
 
 
 const JobsDetails = () => {
     const { id } = useParams();
     const products = useContext(ProductContext)
-    console.log(products)
     const [data, setData] = useState([])
 
     useEffect(() => {
         const productData = products.find(pData => pData.id == id)
         setData(productData)
     }, [])
-    console.log(data)
-
+    const handleAddToApplied = id => {
+        addToDb(id)
+        return toast.success('Apply Done')
+    }   
 
     return (
         <div>
@@ -46,6 +49,7 @@ const JobsDetails = () => {
                 <div className='w-full lg:w-[40%]'>
                    <DetailsCard
                    key={data.id}
+                   handleAddToApplied={handleAddToApplied}
                    data={data}
                    ></DetailsCard>
                 </div>
